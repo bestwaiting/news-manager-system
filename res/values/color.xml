@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="grid_title_color_selected">#000000</color>    
+<color name="grid_title_color">#707070</color>
+<!-- listview 正常和选中的背景 -->
+<item type="drawable" name="list_item_normal">#ffffff</item>
+<item type="drawable" name="list_item_pressed">#C3C3C3</item>
+<!-- gridview 正常和选中的背景 -->
+<item type="drawable" name="gridview_item_normal">#F3F3F3</item>
+<item type="drawable" name="gridview_item_pressed">#F3F3F3</item>
+<!-- footview 背景 -->
+<item type="drawable" name="foot_bg">#EEEEEE</item>
+</resources>

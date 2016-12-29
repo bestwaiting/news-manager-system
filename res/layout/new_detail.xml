@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/title_bar" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="手机报"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="48dip"
+            android:layout_height="48dip" 
+            android:text=""
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/selector_home_back"/>
+    </FrameLayout>
+
+
+     <ScrollView
+        android:id="@+id/svxw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/new_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:textSize="22dip" 
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="15dip"
+                android:layout_marginBottom="6dip"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/new_comer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:textSize="12dip" 
+                    android:textColor="#8F8F8F"
+                    android:layout_marginLeft="10dip"/>
+
+                <TextView
+                    android:id="@+id/new_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dip" 
+                    android:textColor="#8F8F8F"
+                    android:layout_marginLeft="10dip"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="8dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+         
+            <LinearLayout
+            android:id="@+id/llnew"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <ProgressBar 
+              android:id="@+id/xw_progressbar"
+              android:layout_width="35dip"
+              android:layout_height="35dip"
+              android:layout_gravity="center"/>
+            </LinearLayout>
+         </LinearLayout>
+            
+       </ScrollView>
+    
+   
+
+</LinearLayout>
