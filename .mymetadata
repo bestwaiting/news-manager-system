@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="XWGLXTServer"
+  id="myeclipse.1359345613640"
+  context-root="/XWGLXTServer"
+  j2ee-spec="5.0"
+  archive="XWGLXTServer.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
